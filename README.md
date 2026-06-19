@@ -31,3 +31,7 @@ A fully functional, responsive website for Supreme streetwear brand. This projec
 - **Robots.txt**: Configured for search engine crawling.
 - **Sitemap.xml**: Comprehensive sitemap for search engines.
 - **Mobile-Friendly**: Fully responsive design.
+## References
+1. Supreme Brand Guidelines (2024). *Supreme Visual Identity Guide*.
+2. W3Schools (2026). *JavaScript Form Validation*. Available at: https://www.w3schools.com/js/js_validation.asp
+3. Mozilla Developer Network (2026). *SEO Best Practices*. Available at: https://developer.mozilla.org/en-US/docs/Glossary/SEO
