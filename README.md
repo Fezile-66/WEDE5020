@@ -21,3 +21,13 @@ A fully functional, responsive website for Supreme streetwear brand. This projec
   - GitHub repository with semantic commits
   - Deployed on Netlify
   - README with changelog
+### SEO Implementations
+- **Meta Tags**: Title, description, keywords, robots, canonical URLs on all pages.
+- **Open Graph & social Media cards**: For social media sharing.
+- **Header Tags**: Proper H1, H2, H3 hierarchy.
+- **Image Optimization**: Descriptive alt text and lazy loading.
+- **Clean URLs**: Semantic, descriptive URLs.
+- **Internal Linking**: Cross-linking between all pages.
+- **Robots.txt**: Configured for search engine crawling.
+- **Sitemap.xml**: Comprehensive sitemap for search engines.
+- **Mobile-Friendly**: Fully responsive design.
