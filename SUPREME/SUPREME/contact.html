@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta charset="UTF-8">
+<link rel="stylesheet" href="CSS/styles.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>Contact Us - SUPREME</title>
+<meta name="description" content="Contact Supreme customer support. Visit our flagship stores in 166 Buitengracht St, Cape Town City Centre, Cape Town, 8000
+">
+<meta name="keywords" content="Supreme contact, store locations, customer support, NYC store, LA store">
+</head> 
+
+<body>
+
+<header>
+<style>
+ 
+</style>
+<h1>SUPREME</h1>
+
+
+
+
+</header>
+<ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="Services.html">Sevices</a></li>
+  <li><a href="about.html">About us</a></li>
+  <li><a href="inquiry.html">Inquiry</a></li>
+  <li><a class = "active" href="contact.html">Contact</a></li>
+</ul>
+<br>
+
+<h2>Contact Us</h2>
+
+<p>Email: supremenewyork.com</p>
+<p>Phone: +27 73 123 4567</p>
+
+<h3>Contact Form</h3>
+<!-- Client Form -->
+  <!-- RIGHT COLUMN: Contact Form -->
+            <div>
+                <h3>Send Us a Message</h3>
+                
+                <!-- FIXED FORM with correct ID -->
+                <form id="contactForm" novalidate>
+                    
+                    <!-- Name Field -->
+                    <label for="contactName">Your Name *</label>
+                    <input type="text" name="name" id="contactName" required minlength="2" placeholder="e.g., John Doe">
+                    <span class="error-message" id="contactNameError"></span>
+                    <br>
+                    <br>
+
+                    <!-- Email Field -->
+                    <label for="contactEmail">Your Email *</label>
+                    <input type="email" name="email" id="contactEmail" required placeholder="john@example.com">
+                    <span class="error-message" id="contactEmailError"></span>
+                    <br>
+                    <br>
+
+                    <!-- Phone Field -->
+                    <label for="contactPhone">Your Contact Details *</label>
+                    <input type="tel" name="contact" id="contactPhone" required placeholder="+27 73 123 4567">
+                    <span class="error-message" id="contactPhoneError"></span>
+                    <br>
+                    <br>
+
+                    <!-- Subject Field -->
+                    <label for="contactSubject">Subject *</label>
+                    <select name="subject" id="contactSubject" required>
+                        <option value="">Select subject...</option>
+                        <option value="general">General Enquiry</option>
+                        <option value="product">Product Question</option>
+                        <option value="order">Order Support</option>
+                        <option value="feedback">Feedback</option>
+                        <option value="other">Other</option>
+                    </select>
+                    <span class="error-message" id="contactSubjectError"></span>
+                    <br>
+                    <br>
+
+                    <!-- Message Field -->
+                    <label for="contactMessage">Your Message *</label>
+                    <textarea name="message" id="contactMessage" rows="5" required minlength="10" placeholder="Your message..."></textarea>
+                    <span class="error-message" id="contactMessageError"></span>
+                    <div style="text-align:right; font-size:0.8rem; color:#888; margin-top:-10px; margin-bottom:15px;">
+                        <span id="charCount">0</span> / 1000 characters
+                    </div>
+
+                    <input type="submit" value="Send Message">
+                    
+                    <!-- Response Div -->
+                    <div id="contactResponse" class="form-response"></div>
+                </form>
+            </div>
+        </div>
+
+<br/> 
+
+<br/> 
+<br>
+<!-- Store Location -->
+<p style="font-size: 160%;"> You Can Find our Store At </p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3310.6955012405574!2d18.414237099999998!3d-33.9232357!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc676f47824421%3A0x1dac859b42ab7318!2s166%20Buitengracht%20St%2C%20Cape%20Town%20City%20Centre%2C%20Cape%20Town%2C%208000!5e0!3m2!1sen!2sza!4v1776360259125!5m2!1sen!2sza " width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<br>
+<br>
+<p style="font-size: 160%;"> You Can Also Find Our Store At</p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5077.490332012629!2d28.188009669047783!3d-25.858685078260347!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e95643720fe0389%3A0xc941ff63540e5238!2sCenturion%20Mall!5e0!3m2!1sen!2sza!4v1776534346371!5m2!1sen!2sza" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<br>
+<br>
+
+<br>
+
+<footer>
+<!-- Elfsight Social Media Icons | Untitled Social Media Icons -->
+<script src="https://elfsightcdn.com/platform.js" async></script>
+<div class="elfsight-app-f61af9a2-3159-4301-b935-5626e2762270" data-elfsight-app-lazy></div>
+<br>
+<table border="1" width="100%">
+<tr>
+<td align="center">
+<p>© 2026 SUPREME</p>
+</td>
+</tr>
+</table>
+
+</footer>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    
+    // ===== GET FORM ELEMENTS =====
+    const form = document.getElementById('contactForm');
+    const response = document.getElementById('contactResponse');
+    
+    const name = document.getElementById('contactName');
+    const email = document.getElementById('contactEmail');
+    const phone = document.getElementById('contactPhone');
+    const subject = document.getElementById('contactSubject');
+    const message = document.getElementById('contactMessage');
+    const charCount = document.getElementById('charCount');
+    
+    // ===== CHARACTER COUNTER =====
+    if (message && charCount) {
+        message.addEventListener('input', function() {
+            charCount.textContent = this.value.length;
+        });
+    }
+    
+    // ===== ERROR ELEMENTS =====
+    const nameError = document.getElementById('contactNameError');
+    const emailError = document.getElementById('contactEmailError');
+    const phoneError = document.getElementById('contactPhoneError');
+    const subjectError = document.getElementById('contactSubjectError');
+    const messageError = document.getElementById('contactMessageError');
+    
+    // ===== VALIDATOR FUNCTIONS =====
+    function isValidEmail(value) {
+        return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value);
+    }
+    
+    function isValidPhone(value) {
+        return /^[\+\d\s\-\(\)]{7,20}$/.test(value);
+    }
+    
+    // ===== VALIDATE SINGLE FIELD =====
+    function validateField(field, errorSpan, validator, errorMsg) {
+        const value = field.value.trim();
+        
+        // Required field check
+        if (field.hasAttribute('required') && !value) {
+            errorSpan.textContent = 'This field is required.';
+            errorSpan.style.display = 'block';
+            field.classList.add('error');
+            field.classList.remove('success');
+            return false;
+        }
+        
+        // Custom validator
+        if (validator && value && !validator(value)) {
+            errorSpan.textContent = errorMsg;
+            errorSpan.style.display = 'block';
+            field.classList.add('error');
+            field.classList.remove('success');
+            return false;
+        }
+        
+        // All valid
+        errorSpan.style.display = 'none';
+        field.classList.remove('error');
+        field.classList.add('success');
+        return true;
+    }
+    
+    // ===== REAL-TIME VALIDATION ON BLUR =====
+    name.addEventListener('blur', function() {
+        validateField(this, nameError, null, '');
+    });
+    
+    email.addEventListener('blur', function() {
+        validateField(this, emailError, isValidEmail, 'Please enter a valid email address.');
+    });
+    
+    phone.addEventListener('blur', function() {
+        validateField(this, phoneError, isValidPhone, 'Please enter a valid phone number (e.g., +27 73 123 4567).');
+    });
+    
+    subject.addEventListener('blur', function() {
+        validateField(this, subjectError, null, '');
+    });
+    
+    message.addEventListener('blur', function() {
+        validateField(this, messageError, null, '');
+        // Additional length check
+        const value = this.value.trim();
+        if (value && value.length < 10) {
+            messageError.textContent = 'Message must be at least 10 characters.';
+            messageError.style.display = 'block';
+            this.classList.add('error');
+            this.classList.remove('success');
+            return false;
+        } else if (value && value.length >= 10) {
+            messageError.style.display = 'none';
+            this.classList.remove('error');
+            this.classList.add('success');
+            return true;
+        }
+        return true;
+    });
+    
+    // ===== CLEAR ERROR ON INPUT =====
+    form.querySelectorAll('input, select, textarea').forEach(field => {
+        field.addEventListener('input', function() {
+            if (this.classList.contains('error')) {
+                // Re-validate on input
+                if (this.id === 'contactEmail') {
+                    validateField(this, emailError, isValidEmail, 'Please enter a valid email address.');
+                } else if (this.id === 'contactPhone') {
+                    validateField(this, phoneError, isValidPhone, 'Please enter a valid phone number.');
+                } else if (this.id === 'contactMessage') {
+                    const value = this.value.trim();
+                    if (value && value.length < 10) {
+                        messageError.textContent = 'Message must be at least 10 characters.';
+                        messageError.style.display = 'block';
+                        this.classList.add('error');
+                        this.classList.remove('success');
+                    } else if (value && value.length >= 10) {
+                        messageError.style.display = 'none';
+                        this.classList.remove('error');
+                        this.classList.add('success');
+                    } else {
+                        messageError.textContent = 'This field is required.';
+                        messageError.style.display = 'block';
+                        this.classList.add('error');
+                        this.classList.remove('success');
+                    }
+                } else {
+                    validateField(this, 
+                        document.getElementById(this.id + 'Error'), 
+                        null, '');
+                }
+            }
+        });
+    });
+    
+    // ===== FORM SUBMISSION WITH AJAX EMAIL =====
+    form.addEventListener('submit', function(e) {
+        e.preventDefault();
+        
+        // ===== VALIDATE ALL FIELDS =====
+        const nameValid = validateField(name, nameError, null, '');
+        const emailValid = validateField(email, emailError, isValidEmail, 'Please enter a valid email address.');
+        const phoneValid = validateField(phone, phoneError, isValidPhone, 'Please enter a valid phone number.');
+        const subjectValid = validateField(subject, subjectError, null, '');
+        
+        // Manual message validation
+        let messageValid = false;
+        const msgValue = message.value.trim();
+        if (!msgValue) {
+            messageError.textContent = 'This field is required.';
+            messageError.style.display = 'block';
+            message.classList.add('error');
+            message.classList.remove('success');
+            messageValid = false;
+        } else if (msgValue.length < 10) {
+            messageError.textContent = 'Message must be at least 10 characters.';
+            messageError.style.display = 'block';
+            message.classList.add('error');
+            message.classList.remove('success');
+            messageValid = false;
+        } else {
+            messageError.style.display = 'none';
+            message.classList.remove('error');
+            message.classList.add('success');
+            messageValid = true;
+        }
+        
+        // ===== CHECK IF ALL VALID =====
+        if (nameValid && emailValid && phoneValid && subjectValid && messageValid) {
+            
+            // ===== SHOW LOADING STATE =====
+            response.className = 'form-response loading';
+            response.innerHTML = 'Sending your message...';
+            response.style.display = 'block';
+            
+            // ===== GATHER FORM DATA =====
+            const formData = {
+                name: name.value.trim(),
+                email: email.value.trim(),
+                phone: phone.value.trim(),
+                subject: subject.value,
+                message: message.value.trim()
+            };
+            
+            // ===== COMPILE EMAIL CONTENT =====
+            const emailContent = `
+        ════════════════════════════════════════
+           SUPREME CONTACT FORM SUBMISSION
+        ════════════════════════════════════════
+        
+        📧 From: ${formData.name}
+        📬 Email: ${formData.email}
+        📱 Phone: ${formData.phone}
+        📋 Subject: ${formData.subject}
+        
+        📝 Message:
+        ────────────────────────────────────────
+        ${formData.message}
+        ────────────────────────────────────────
+        
+        ⏰ Submitted: ${new Date().toLocaleString()}
+        
+        ════════════════════════════════════════
+        This email was sent via the Supreme Contact Form
+        `;
+            
+            // ===== SIMULATE AJAX EMAIL SEND =====
+            // In production, this would send to a server endpoint
+            // For this demo, we simulate the email being sent
+            
+            console.log('📧 SENDING EMAIL VIA AJAX...');
+            console.log('To: info@supremenewyork.com');
+            console.log('From: ' + formData.email);
+            console.log('Subject: ' + formData.subject);
+            console.log('Message: \n' + formData.message);
+            
+            // Simulate server processing delay
+            setTimeout(function() {
+                
+                // ===== SUCCESS RESPONSE =====
+                response.className = 'form-response success';
+                response.innerHTML = `
+                    <strong>✅ Message Sent Successfully!</strong><br><br>
+                    <p>Thank you for contacting Supreme. We will respond within 24-48 hours.</p>
+                    <p><small>A confirmation has been sent to: <strong>${formData.email}</strong></small></p>
+                    
+                    <details style="margin-top:15px;">
+                        <summary style="cursor:pointer; font-weight:600; color:#155724;">📧 View Email Preview (AJAX Simulated)</summary>
+                        <pre style="background:#f5f5f5; padding:15px; border-radius:4px; font-size:0.8rem; white-space:pre-wrap; margin-top:10px; color:#333; border:1px solid #ddd;">${emailContent}</pre>
+                    </details>
+                    
+                    <p style="margin-top:15px; font-size:0.8rem; color:#666;">
+                        <small>Reference: #${Math.random().toString(36).substring(2, 8).toUpperCase()}</small>
+                    </p>
+                `;
+                response.style.display = 'block';
+                
+                // ===== RESET FORM AFTER DELAY =====
+                setTimeout(function() {
+                    form.reset();
+                    document.querySelectorAll('input, select, textarea').forEach(el => {
+                        el.classList.remove('success', 'error');
+                    });
+                    if (charCount) charCount.textContent = '0';
+                    
+                    // Keep response visible but show it's been reset
+                    response.innerHTML = `
+                        <strong>✅ Message Sent Successfully!</strong><br>
+                        <p>We will respond within 24-48 hours. Keep an eye on your inbox.</p>
+                        <p><small>Form has been reset for your next message.</small></p>
+                    `;
+                    
+                    // Hide response after 8 seconds
+                    setTimeout(function() {
+                        response.style.display = 'none';
+                    }, 5000);
+                    
+                }, 4000);
+                
+            }, 2000); // Simulate 2-second server processing
+            
+        } else {
+            // ===== SHOW VALIDATION ERRORS =====
+            response.className = 'form-response error';
+            response.innerHTML = 'Please fix the errors above before submitting.';
+            response.style.display = 'block';
+            
+            // Scroll to first error
+            const firstError = form.querySelector('.error');
+            if (firstError) {
+                firstError.focus();
+            }
+            
+            // Auto-hide error after 5 seconds
+            setTimeout(function() {
+                response.style.display = 'none';
+            }, 5000);
+        }
+    });
+    
+});
+</script>
+</body>
+</html>
